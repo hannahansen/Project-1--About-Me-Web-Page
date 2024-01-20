@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url('background-pattern.png');
+    background-repeat: repeat;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+img.profile-image {
+    float: right;
+    width: 500px;
+    height: 500px;
+    border: 1px solid #000;
+}
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+pre {
+    text-align: center;
+}
+
+.class-schedule table {
+    border-collapse: collapse;
+    width: 100%;
+    table-layout: fixed;
+}
+
+.class-schedule th, .class-schedule td {
+    border: 1px solid black;
+    padding: 5px;
+    text-align: left;
+    vertical-align: top;
+    background-color: #f8f8f8;
+}
+.partial {
+    text-align: center;
+    vertical-align: middle;
+    background-color: #f4f4f4;
+}
+.cpp {
+    background-color: #a2b9bc;
+}
